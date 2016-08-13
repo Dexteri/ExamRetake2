@@ -19,11 +19,8 @@ namespace examRetake.Account_Manager.Service
         public List<Users> GetUserList()
         {
             var nowUser = GetUserID();
-            var users = db.Users.Where(x => x.UserID != nowUser).OrderBy(x => x.Role).Select(x => x);
-            List<Users> usersList = new List<Users>();
-            foreach (var us in users)
-                usersList.Add(us);
-            return usersList;
+            var users = db.Users.Where(x => x.UserID != nowUser).OrderBy(x => x.Role).Select(x => x).ToList();
+            return users;
         }
 
         public int GetUserID()
@@ -36,6 +33,12 @@ namespace examRetake.Account_Manager.Service
             var user = db.Users.Find(id);
             db.Users.Remove(user);
             db.SaveChanges();
+        }
+        public List<Users> GetStudentList()
+        {
+            var nowUser = GetUserID();
+            var users = db.Users.Where(x => x.UserID != nowUser && !x.Role.Equals("admin")).OrderBy(x => x.Role).Select(x => x).ToList();
+            return users;
         }
     }
 }

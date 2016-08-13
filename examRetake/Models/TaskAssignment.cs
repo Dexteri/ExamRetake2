@@ -21,4 +21,5 @@ namespace examRetake.Models
     }
 
     public enum Status { New, Started, Finished, Done}
+    public enum TypeReq { Help, Submit }
 }

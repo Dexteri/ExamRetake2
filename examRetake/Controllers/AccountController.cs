@@ -39,7 +39,11 @@ namespace examRetake.Controllers
                 return View("Login");
             }
             SessionPersister.Username = user.Username;
-            return RedirectToAction("Index", "Tasks");
+            if (accountService.AccessAccount())
+            {
+                return RedirectToAction("Index", "Tasks");
+            }
+            else return RedirectToAction("Index", "Student");
         }
         /// <summary>
         /// rejestracja uzytkownikow

@@ -133,7 +133,7 @@ namespace examRetake.Controllers
         public ActionResult TaskAssignmentToStudent(int id)
         {
             Task task = service.Details(id);
-            List<Users> users = this.userService.GetUserList();
+            List<Users> users = this.userService.GetStudentList();
             TaskAssignmentViewModel tavm = new TaskAssignmentViewModel()
             {
                 TaskId = task.TaskId,
