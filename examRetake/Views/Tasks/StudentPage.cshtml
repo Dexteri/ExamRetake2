@@ -1,0 +1,39 @@
+﻿
+@model IEnumerable<examRetake.Models.Task>
+
+@{
+    ViewBag.Title = "StudentPage";
+}
+
+<h2>StudentPage</h2>
+
+<div class="container">
+   
+        @foreach (var i in Model)
+        {
+            <table>
+                <thead>
+                <th>nr:</th>
+                <th>title:</th>
+                <th>description:</th>
+                <th></th>
+                <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@i.TaskId</td>
+                        <td>@i.Title</td>
+                    <td>description</td>
+                        <td><button type="button" class="btn btn-danger"> help</button></td>
+                        <td><button type="button" class="btn btn-success"> submit</button></td>
+
+
+                </tr>
+                </tbody>
+            </table>
+
+        }
+
+    </div>
+
+

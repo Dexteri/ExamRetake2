@@ -1,0 +1,74 @@
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\csc.exe
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\System.Collections.Immutable.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\vbc.exe
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\VBCSCompiler.exe
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\roslyn\VBCSCompiler.exe.config
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\examRetake.dll.config
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\examRetake.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\examRetake.pdb
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\Microsoft.Web.Infrastructure.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Helpers.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Mvc.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Razor.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Webpages.Deployment.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Webpages.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Webpages.Razor.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Razor.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Webpages.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Webpages.Deployment.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Webpages.Razor.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Helpers.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\System.Web.Mvc.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\obj\Debug\examRetake.csprojResolveAssemblyReference.cache
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\obj\Debug\examRetake.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\obj\Debug\examRetake.pdb
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\EntityFramework.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\EntityFramework.SqlServer.dll
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\EntityFramework.xml
+c:\users\kasia\documents\visual studio 2015\Projects\examRetake\examRetake\examRetake\bin\EntityFramework.SqlServer.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\csc.exe
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\System.Collections.Immutable.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\System.Reflection.Metadata.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\vbc.exe
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\VBCSCompiler.exe
+D:\ASP.NET MVC\trunk\examRetake\bin\roslyn\VBCSCompiler.exe.config
+D:\ASP.NET MVC\trunk\examRetake\bin\examRetake.dll.config
+D:\ASP.NET MVC\trunk\examRetake\bin\examRetake.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\examRetake.pdb
+D:\ASP.NET MVC\trunk\examRetake\bin\EntityFramework.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\EntityFramework.SqlServer.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\Microsoft.Web.Infrastructure.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Helpers.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Mvc.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Razor.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Webpages.Deployment.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Webpages.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Webpages.Razor.dll
+D:\ASP.NET MVC\trunk\examRetake\bin\EntityFramework.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\EntityFramework.SqlServer.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Razor.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Webpages.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Webpages.Deployment.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Webpages.Razor.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Helpers.xml
+D:\ASP.NET MVC\trunk\examRetake\bin\System.Web.Mvc.xml
+D:\ASP.NET MVC\trunk\examRetake\obj\Debug\examRetake.dll
+D:\ASP.NET MVC\trunk\examRetake\obj\Debug\examRetake.pdb
+D:\ASP.NET MVC\trunk\examRetake\obj\Debug\examRetake.csprojResolveAssemblyReference.cache
