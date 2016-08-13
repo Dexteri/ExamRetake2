@@ -19,4 +19,6 @@ namespace examRetake.Models
         public virtual Users User { get; set; }
         public virtual Task Tasks { get; set; }
     }
+
+    public enum Status { New, Started, Finished, Done}
 }

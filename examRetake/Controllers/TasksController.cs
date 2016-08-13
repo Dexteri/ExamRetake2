@@ -8,12 +8,16 @@ using System.Web;
 using System.Web.Mvc;
 using examRetake.Models;
 using examRetake.Service;
+using examRetake.ViewModel;
+using examRetake.Account_Manager.Service;
+using System.Web.Routing;
 
 namespace examRetake.Controllers
 {
     public class TasksController : Controller
     {
         TaskService service = new TaskService();
+        UserManagingService userService = new UserManagingService();
 
         // GET: Tasks
         public ActionResult Index()
@@ -124,6 +128,27 @@ namespace examRetake.Controllers
         public ActionResult StudentPage()
         {
             return View(service.GetListTask());
+        }
+
+        public ActionResult TaskAssignmentToStudent(int id)
+        {
+            Task task = service.Details(id);
+            List<Users> users = this.userService.GetUserList();
+            TaskAssignmentViewModel tavm = new TaskAssignmentViewModel()
+            {
+                TaskId = task.TaskId,
+                Title = task.Title,
+                Deadline = task.Deadline,
+                Description = task.Description,
+                UsersList = users
+            };
+            return View(tavm);
+        }
+        public ActionResult TaskAssignment(int taskId, int userID)
+        {
+            service.AssignTaskToStudentID(taskId, userID);
+            return RedirectToAction("TaskAssignmentToStudent", new RouteValueDictionary(
+    new { controller = "Tasks", action = "TaskAssignmentToStudent", Id = taskId }));
         }
     }
 }

@@ -1,0 +1,44 @@
+﻿@model examRetake.ViewModel.TaskAssignmentViewModel
+
+@{
+    ViewBag.Title = "TaskAssignmentToStudent";
+}
+
+<td>
+    @Html.DisplayFor(modelItem => Model.Title)
+</td>
+<td>
+    @Html.DisplayFor(modelItem => Model.Deadline)
+</td>
+<td>
+    @Html.DisplayFor(modelItem => Model.Description)
+</td>
+<h2>List students</h2>
+@foreach (var item in Model.UsersList)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Username)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Role)
+        </td>
+        <td>
+            @Html.ActionLink("Assign Task", "TaskAssignment", new { taskId = Model.TaskId, userID = item.UserID })
+        </td>
+    </tr>
+}
+
+
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -18,10 +18,11 @@ namespace examRetake.Service
         {
             return db.Tasks.ToList();
         }
-        public Task Details(int?id)
+        public Task Details(int? id)
         {
             Task result = new Task();
-            try {
+            try
+            {
                 result = db.Tasks.Find(id);
             }
             catch
@@ -44,10 +45,11 @@ namespace examRetake.Service
         {
             try
             {
-                if (task != null) {
+                if (task != null)
+                {
                     db.Entry(task).State = EntityState.Modified;
                     db.SaveChanges();
-                        }
+                }
             }
             catch { }
         }
@@ -67,6 +69,19 @@ namespace examRetake.Service
         public void Dispose()
         {
             db.Dispose();
+        }
+
+        public bool AssignTaskToStudentID(int taskID, int userID)
+        {
+            if (!db.TaskAssignments.Any(x => x.TaskID == taskID && x.UserID == userID))
+            {
+                TaskAssignment taskAssignment;
+                taskAssignment = new TaskAssignment() { TaskID = taskID, UserID = userID, Status = Status.New.ToString() };
+                db.TaskAssignments.Add(taskAssignment);
+                db.SaveChanges();
+                return true;
+            }
+            return false;
         }
     }
 }
